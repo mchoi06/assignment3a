@@ -7,7 +7,6 @@
 		html {background-color: #a6a6a6;}
 		body,html {padding: 0; margin: 0}
 		header h1 { text-align:center;
-		font-family: arial, helvetica;
 		padding: 0em;
 		}
 		header {background-color: #a6a6a6
@@ -21,6 +20,15 @@
 		nav ul li {display: inline-block;
 			text-align: justify;
 			width: 18%;
+		}
+		@font-face {
+			font-family: Lobster;
+		src: url(Lobster.woff),
+		     url(Lobster.woff2),
+		     url(Lobster.ttf),
+		     url(Lobster.eot),
+		     url(Lobster.otf),
+		     url(Lobster.svg);
 		}
 		
 		.button {
@@ -43,6 +51,7 @@
 		
 		
 		h1,h2,h3 {
+			font-family: Lobster, arial, helvetica;
 			font-style: italic;
 			font-weight: bold;
 			font-size: 2.4em;
