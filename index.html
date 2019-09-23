@@ -31,6 +31,10 @@
 		     url(Lobster.svg);
 		}
 		
+		.search {
+			height: 1em;
+		}
+		
 		.button {
 			display: inline-block;
 			padding: .2em 1.5em;
@@ -38,6 +42,7 @@
 			color: #fff;
 			margin: 0;
 			border: 0;
+			height: 1em;
 		}
 		
 		article {
@@ -103,7 +108,7 @@
 			<li><a href="#">PROJECTS</a></li>
 			<li><a href="#">CONTACT</a></li>
 			<li>
-				<form display = "inline-block" font-size = "1em">
+				<form class = "search" display = "inline-block">
 					<input type='text' name='search' placeholder = "Search query">
 					<input class = "button" type = "submit" value = "Go!" >
 				</form>
